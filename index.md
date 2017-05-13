@@ -29,7 +29,7 @@ Here is some SAGE math code, which _actually_ works.
 ```
 
 ### Code Test
-`
+```python
 # 16.6 problem 3 - the hard way
 x,y,z = var('x,y,z')
 u,v = var('u,v')
@@ -83,7 +83,7 @@ show(fv)
 print("then the 'u' as our outer integral")
 fu = integrate(fv, u, 0, pi)
 show(fu)
-`
+```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
