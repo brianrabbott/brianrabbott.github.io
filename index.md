@@ -22,13 +22,13 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
-Here is some SAGE math code, which _actually_ works.
 
 
 [Link](url) and ![Image](src)
 ```
 
 ### Code Test
+Here is some SAGE math code.  It calculates a surface integral.
 ```python
 # 16.6 problem 3 - the hard way
 x,y,z = var('x,y,z')
