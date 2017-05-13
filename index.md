@@ -23,6 +23,12 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 Here is some SAGE math code, which _actually_ works.
+
+
+[Link](url) and ![Image](src)
+```
+
+### Code Test
 `
 # 16.6 problem 3 - the hard way
 x,y,z = var('x,y,z')
@@ -78,9 +84,6 @@ print("then the 'u' as our outer integral")
 fu = integrate(fv, u, 0, pi)
 show(fu)
 `
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
